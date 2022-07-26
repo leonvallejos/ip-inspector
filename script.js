@@ -8,4 +8,10 @@ const OPTIONS = {
   }
 };
 
-// url: 'https://ip-geolocation-and-threat-detection.p.rapidapi.com/54.85.132.205'
+// url: 'https://ip-geolocation-and-threat-detection.p.rapidapi.com/192.168.1.1')
+
+const fetchIpInfo = ip => {
+    return fetch(`https://ip-geolocation-and-threat-detection.p.rapidapi.com/${ip}`)
+    .then(res => res.json())
+    .catch(err => console.error(err))
+}
