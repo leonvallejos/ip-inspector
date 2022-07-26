@@ -29,6 +29,10 @@ $form.addEventListener('submit', async (event) => {
     // Add validations
     if(!value) return
 
+    // Set new attributes for submit
+    $submit.setAttribute('disabled', '')
+    $submit.setAttribute('aria-busy', true) // pico.css framework loading
+
     // get info about IP
     const ipInfo = await fetchIpInfo(value) // async function
 })
