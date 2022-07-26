@@ -15,3 +15,16 @@ const fetchIpInfo = ip => {
     .then(res => res.json())
     .catch(err => console.error(err))
 }
+
+// Get form data of input, $ = dom element
+const $form = document.querySelector('#form')
+const $input = document.querySelector('#input')
+
+$form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    // get input value ;)
+    const {value} = $input;
+
+    // Add validations
+    if(!value) return
+})
