@@ -1,5 +1,3 @@
-import axios from "axios";
-
 const OPTIONS = {
   method: 'GET',
   headers: {
@@ -11,13 +9,13 @@ const OPTIONS = {
 // url: 'https://ip-geolocation-and-threat-detection.p.rapidapi.com/192.168.1.1')
 
 const fetchIpInfo = ip => {
-    return fetch(`https://ip-geolocation-and-threat-detection.p.rapidapi.com/${ip}`)
+    return fetch(`https://ip-geolocation-and-threat-detection.p.rapidapi.com/${ip}`, OPTIONS)
     .then(res => res.json())
     .catch(err => console.error(err))
 }
 
 // No reapeat code
-const $ = document.querySelectorAll(selector)
+const $ = selector => document.querySelectorAll(selector)
 
 // Get form data of input, $ = dom element
 const $form = $('#form')
