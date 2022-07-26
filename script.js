@@ -19,12 +19,16 @@ const fetchIpInfo = ip => {
 // Get form data of input, $ = dom element
 const $form = document.querySelector('#form')
 const $input = document.querySelector('#input')
+const $submit = document.querySelector('#submit')
 
-$form.addEventListener('submit', (event) => {
+$form.addEventListener('submit', async (event) => {
     event.preventDefault();
     // get input value ;)
     const {value} = $input;
 
     // Add validations
     if(!value) return
+
+    // get info about IP
+    const ipInfo = await fetchIpInfo(value) // async function
 })
