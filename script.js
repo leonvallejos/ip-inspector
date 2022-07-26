@@ -21,6 +21,9 @@ const $form = document.querySelector('#form')
 const $input = document.querySelector('#input')
 const $submit = document.querySelector('#submit')
 
+// render ipInfo and results
+const $results = document.querySelector('#results')
+
 $form.addEventListener('submit', async (event) => {
     event.preventDefault();
     // get input value ;)
@@ -35,6 +38,11 @@ $form.addEventListener('submit', async (event) => {
 
     // get info about IP
     const ipInfo = await fetchIpInfo(value) // async function
+
+    // render info
+    if(ipInfo){
+
+    }
 
     // Full loading
     $submit.removeAttribute('disabled')
