@@ -44,7 +44,8 @@ $form.addEventListener('submit', async (event) => {
 
     // render info
     if(ipInfo){
-
+        // apiInfo to JSON
+        $results.innerHTML = JSON.stringify(ipInfo, null, 2)
     }
 
     // Full loading
