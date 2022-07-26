@@ -51,3 +51,9 @@ $form.addEventListener('submit', async (event) => {
     $submit.removeAttribute('aria-busy')
 
 })
+
+
+/// TODO: Add web of whats is my IP - Footer - More info about project
+// - Create readme
+// - Change descripion, copy data of apiweb
+// - Add icon
