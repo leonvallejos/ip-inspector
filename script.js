@@ -16,13 +16,16 @@ const fetchIpInfo = ip => {
     .catch(err => console.error(err))
 }
 
+// No reapeat code
+const $ = document.querySelectorAll(selector)
+
 // Get form data of input, $ = dom element
-const $form = document.querySelector('#form')
-const $input = document.querySelector('#input')
-const $submit = document.querySelector('#submit')
+const $form = $('#form')
+const $input = $('#input')
+const $submit = $('#submit')
 
 // render ipInfo and results
-const $results = document.querySelector('#results')
+const $results = $('#results')
 
 $form.addEventListener('submit', async (event) => {
     event.preventDefault();
