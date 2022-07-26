@@ -14,7 +14,7 @@ const fetchIpInfo = ip => {
     .catch(err => console.error(err))
 }
 
-// No reapeat code
+// No repeat code
 const $ = selector => document.querySelectorAll(selector)
 
 // Get form data of input, $ = dom element
