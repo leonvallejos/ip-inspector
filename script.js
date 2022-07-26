@@ -35,4 +35,9 @@ $form.addEventListener('submit', async (event) => {
 
     // get info about IP
     const ipInfo = await fetchIpInfo(value) // async function
+
+    // Full loading
+    $submit.removeAttribute('disabled')
+    $submit.removeAttribute('aria-busy')
+
 })
