@@ -52,8 +52,6 @@ $form.addEventListener('submit', async (event) => {
 
 })
 
-
-/// TODO: Add web of whats is my IP - Footer - More info about project
 // - Create readme
-// - Change descripion, copy data of apiweb
-// - Add icon
+// - Change descripion and text in github, copy data of apiweb in the web
+
