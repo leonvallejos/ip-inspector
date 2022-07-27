@@ -17,8 +17,8 @@ As for the main script, it was developed purely with [javascript](https://develo
 
 ## Documentation and live demos
 
-For developers: [API IP Inspector](https://rapidapi.com/ipregistry3-ipregistry/api/ip-geolocation-and-threat-detection/).
-Demo of IP Inspector: https://ip-inspector.netlify.app/
+For developers: [API IP Inspector](https://rapidapi.com/ipregistry3-ipregistry/api/ip-geolocation-and-threat-detection/).*
+*Demo of IP Inspector: https://ip-inspector.netlify.app/*
 
 ## License
 
