@@ -14,7 +14,26 @@
           <li><strong>IP Inspector</strong></li>
         </ul>
         <ul>
-          <li><a href="#">About</a></li>
+          <li><a href="#" data-target="modal-about" onclick="toggleModal(event)">About</a></li>
+
+        <!-- Modal -->
+        <dialog id="modal-about">
+            <article>
+                <a href="#close"
+                    aria-label="Close"
+                    class="close"
+                    data-target="modal-about"
+                    onClick="toggleModal(event)">
+                </a>
+                <h3>IP Inspector</h3>
+                <p>
+                    IP Geolocation and Threat Detection.
+                    Pinpoint your users’ locations, customize their experiences, prevent fraud, ensure compliance, and so much more.
+                    <a target="_blank" href="https://rapidapi.com/ipregistry3-ipregistry/api/ip-geolocation-and-threat-detection/">API documentation for developers</a>
+                    <br>
+                </p>
+            </article>
+        </dialog>
           <li><a target="_blank" href="https://www.cualesmiip.com/en" role="button">What is my IP</a></li>
         </ul>
       </nav>
@@ -39,5 +58,6 @@
         
     </footer>
     <script src="/js/script.js"></script>
+    <script src="/js/modal.js"></script>
 </body>
 </html>
