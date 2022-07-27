@@ -52,6 +52,4 @@ $form.addEventListener('submit', async (event) => {
 
 })
 
-// - Create readme
-// - Change descripion and text in github, copy data of apiweb in the web
 
