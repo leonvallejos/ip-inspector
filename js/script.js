@@ -52,6 +52,12 @@ $form.addEventListener('submit', async (event) => {
 
 })
 
+// changeTheme
+function changeTheme(){
+    //
+}
+
+// - dark theme
 // - Create readme
 // - Change descripion and text in github, copy data of apiweb in the web
 
