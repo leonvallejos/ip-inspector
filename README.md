@@ -5,6 +5,10 @@ IP Geolocation and Threat Detection. Pinpoint your users’ locations, customize
 ## Installation
 
 Download the project and use it with Live Server (index.html):
+```
+git clone https://github.com/leonvallejos/ip-inspector.git
+cd ip-inspector
+```
 
 *Live Server for VSCODE:
 [INSTALL](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)*
